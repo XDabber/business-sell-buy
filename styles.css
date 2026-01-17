@@ -1,5 +1,209 @@
 .navbar{
- background-color: red;
- height: 20px;
- width: 20px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 84.5rem;
+        height: 3rem;
+        background: white; /* white */
+        border-radius: 0;
+        box-shadow: 0 0 0 #00000000, 0 0 2px #171a1f14; /* shadow-custom */
 }
+
+.working{
+    /* Working image */
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        width: 84.5rem;
+        height: 600px;
+        border-radius: 0 0 0 0;
+}
+
+.logo-home{
+
+    /* logo */
+
+        position: absolute;
+        top: 0.3rem;
+        left: 28px;
+        width: 36px;
+        height: 36px;
+        background: #309535FF; /* primary-500 */
+        border-radius: 7px;
+}
+
+
+/* Explore Button */
+.explore-button {
+    position: absolute;
+    top: 0.3rem;
+    left: 240px;
+    width: 83px;
+    height: 40px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #171A1FFF; /* neutral-900 */
+    background: #00000000; /* transparent */
+    opacity: 1;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+}
+/* Hover */
+.explore-button:hover {
+    color: #171A1FFF; /* neutral-900 */
+    background: #00000000; /* black */
+}
+/* Pressed */
+.explore-button:hover:active {
+    color: #171A1FFF; /* neutral-900 */
+    background: #00000000; /* black */
+}
+/* Disabled */
+.explore-button:disabled {
+    opacity: 0.4;
+}
+
+
+
+
+/* Sell business Button */
+.sell-business-button {
+    position: absolute;
+    top: 0.3rem;
+    left: 347px;
+    width: 121px;
+    height: 40px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #171A1FFF; /* neutral-900 */
+    background: #00000000; /* transparent */
+    opacity: 1;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+}
+/* Hover */
+.sell-business-button:hover {
+    color: #171A1FFF; /* neutral-900 */
+    background: #00000000; /* black */
+}
+/* Pressed */
+.sell-business-button:hover:active {
+    color: #171A1FFF; /* neutral-900 */
+    background: #00000000; /* black */
+}
+/* Disabled */
+.sell-business-button:disabled {
+    opacity: 0.4;
+}
+
+
+/* Login Button */
+.login-button {
+    position: absolute;
+    top: 0.3rem;
+    left: 1180px;
+    width: 69px;
+    height: 40px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #171A1FFF; /* neutral-900 */
+    background: #00000000; /* transparent */
+    opacity: 1;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+}
+/* Hover */
+.login-button:hover {
+    color: #171A1FFF; /* neutral-900 */
+    background: #00000000; /* black */
+}
+/* Pressed */
+.login-button:hover:active {
+    color: #171A1FFF; /* neutral-900 */
+    background: #00000000; /* black */
+}
+/* Disabled */
+.login-button:disabled {
+    opacity: 0.4;
+}
+
+
+
+/* Register Button */
+.register-button {
+    position: absolute;
+    top: 0.3rem;
+    left: 1255px;
+    width: 88px;
+    height: 40px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #FFFFFFFF; /* white */
+    background: #309535FF; /* primary-500 */
+    opacity: 1;
+    border-radius: 6px;
+    border-width: 0px;
+    border-color: #000000FF; /* black */
+    border-style: solid;
+}
+/* Hover */
+.register-button:hover {
+    color: #FFFFFFFF; /* white */
+    background: #309535FF; /* primary-500 */
+}
+/* Pressed */
+.register-button:hover:active {
+    color: #FFFFFFFF; /* white */
+    background: #309535FF; /* primary-500 */
+}
+/* Disabled */
+.register-button:disabled {
+    opacity: 0.4;
+}
+
+
+
+.buy-sell-text{
+
+        position: absolute;
+        top: 130px;
+        left: 320px;
+        width: 800px;
+        font-family:"Arial Black"; /* Heading */
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 700;
+        color: #171A1FFF; /* neutral-900 */
+    text-align: center;
+
+}
+
+
