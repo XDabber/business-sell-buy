@@ -1,3 +1,6 @@
+@import "node_modules/tailwindcss/dist/lib.d.mts";
+
+
 .navbar{
 
         position: absolute;
@@ -204,6 +207,19 @@
         color: #171A1FFF; /* neutral-900 */
     text-align: center;
 
+}
+
+
+.homepage-text{
+
+        position: absolute;
+        top: 280px;
+        left: 401px;
+        font-family: Inter; /* Body */
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        color: Arial-black; /* neutral-600 */
 }
 
 
